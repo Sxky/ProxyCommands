@@ -1,0 +1,23 @@
+#ProxyCommands Messages - By Death4457.
+Global:
+  Prefix: "&7//"
+  No-Perms: "&cInsufficient Permisions. (/permission/)"
+#This is for the private messages, and social spy features, it may get a little complicated here!
+Private-Messages:
+  SameServer-Format:
+    Sender: "&7Me&8➟&7/reciever/ &8/message/"
+    Reciever: "&7/sender/&8➟&7Me &8/message/"
+  DifferentServer-Format:
+    Sender: "&7Me&8➟&7&o/reciever_with_server/&r &8/message/"
+    Reciever: "&7&o/sender_with_server/&r&8➟&7Me &8/message/"
+  SocialSpy-Format: "&8º/sender_with_server/➟/reciever_with_server/ /message/"
+#This is the configuration for Alert messages
+Alert:
+    #/sender/ is used to produce the name of the person whom ran the command
+    #/message/ is used to produce the message typed out by the sender
+    #The alert style contains 3 special format messages, triggered by using &h/s/g in the begining of the message.
+  AlertStyle: 
+    Normal: "&f[&6&lAlert&r&f]&a /sender/&f: /message/"
+    StyleH: "/message/"
+    StyleS: "&f[&6&lAlert&r&f]&r /message/"
+    StyleG: "&a/sender/&f: /message/"

@@ -1,0 +1,26 @@
+#ProxyCommands Config - By Death4457.
+
+#General Options for the plugin
+options:
+    #Allow use of /hub or /lobby
+  allow-hub-commands: true
+    #Name of default server to use if allow-hub-commands is set to true
+  default-server-name: "Lobby"
+    #Should we use the proxymessage feature from this plugin? true if so.
+  UseMsg: true
+#General Chat Options
+chat:
+  #Should Spam have a cooldown? Set to true if so.  This includes spamming of commands.
+  Disallow-Spam: true
+  spam:
+    #What should the cooldown be? Used if Disallow-Spam is set to true
+   ChatCooldown: 0.5
+   CommandCooldown: 0.5
+#PlayerSlots Options
+slots:
+    #Amount of player slots to add to the server for every player that joins, set to '0' to disable
+  Added-Player-Slots: '10'
+#Automatic Update Options
+update:
+    #Disable automatic checks for updates.
+  CheckForUpdate: true

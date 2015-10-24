@@ -1,0 +1,5 @@
+name: ProxyCommands
+version: 1.10.2
+main: main.ProxyPlugin
+description: Provides commands and features for the proxy server.
+author: Death4457

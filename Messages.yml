@@ -1,0 +1,15 @@
+#ProxyCommands Messages - By Death4457.
+#Keep in mind, that this plugin is still in the Alpha stage, and not every feature reads from this file yet! Sorry for the inconvience.
+Global:
+  Prefix: "&7//"
+  No-Perms: "&cInsufficient Permisions. (/permission/)"
+#This is the configuration for Alert messages
+Alert:
+    #/sender/ is used to produce the name of the person whom ran the command
+    #/message/ is used to produce the message typed out by the sender
+    #The alert style contains 3 special format messages, triggered by using &h/s/g in the begining of the message.
+  AlertStyle:
+    Normal: "&f[&6&lAlert&r&f]&a /sender/&f: /message/"
+    StyleH: "/message/"
+    StyleS: "&f[&6&lAlert&r&f]&r /message/"
+    StyleG: "&a/sender/&f: /message/"
